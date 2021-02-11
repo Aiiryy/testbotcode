@@ -7,7 +7,7 @@ require("dotenv").config();
 const client = new Discord.Client();
 
 const queue = new Map();
-client.login("ODA2NDM4NTM1NTA2NjkwMDUx.YBpcaQ.iMDztOkoz-5gU9JVnWuvzfP5xi0");
+client.login("TOKEN");
 
 
 client.once("ready", () => {
