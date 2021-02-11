@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aiiryy/truebot.git"
+    "url": 
   },
   "author": "Aiiryy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aiiryy/truebot/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Aiiryy/truebot#readme"
+  "homepage": ""
 }
