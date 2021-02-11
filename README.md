@@ -1,0 +1,2 @@
+# botnezuko
+A bot discord
