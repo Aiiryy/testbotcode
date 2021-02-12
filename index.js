@@ -1,6 +1,6 @@
 const Discord         = require("discord.js");
-const config = require('./config.json');
 const prefix = "!";
+const token = ("TOKEN");
 const ytdl            = require("ytdl-core");
 require("dotenv").config();
 
@@ -10,16 +10,16 @@ const queue = new Map();
 client.login("TOKEN");
 
 
-client.once("ready", () => {
+client.on("ready", () => {
         console.log("Ready!");
         client.user.setActivity("Developped by HentAiiryy⌛");
 });
 
-client.once("reconnecting", () => {
+client.on("reconnecting", () => {
         console.log("Reconnecting!");
 });
 
-client.once("disconnect", () => {
+client.on("disconnect", () => {
         console.log("Disconnect!");
         
 });
