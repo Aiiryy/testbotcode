@@ -1,6 +1,6 @@
 const Discord         = require("discord.js");
 const prefix = "!";
-const token = ("TOKEN");
+
 const ytdl            = require("ytdl-core");
 require("dotenv").config();
 
